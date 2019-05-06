@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wambu Dealership</title>
+    <title>Wambu Car Shop</title>
     <link rel="icon" href="./img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main.css" />
     <!--font awesome-->
     <script src="fontawesome-all.js"></script>
@@ -24,19 +28,19 @@
         </div>
         <ul>
           <li>
-            <a href="#">home</a>
+            <a href="#home">home</a>
           </li>
           <li>
-            <a href="#">services</a>
+            <a href="#services">services</a>
           </li>
           <li>
-            <a href="#">our work</a>
+            <a href="#projects">our work</a>
           </li>
           <li>
-            <a href="#">about us</a>
+            <a href="#about">about us</a>
           </li>
           <li>
-            <a href="#">contact</a>
+            <a href="#contact">contact</a>
           </li>
           <li>
             <a href="#">book online</a>
@@ -45,8 +49,7 @@
       </nav>
       <div class="banner">
         <div class="banner-center">
-          <img src="img/bannerLogo.svg" alt="img" />
-          <h1>company <span class="and">&amp; </span>co</h1>
+          <h1>Wambu <span class="and">&amp; </span>co</h1>
           <h3>car shop for fanatics</h3>
           <div class="banner-icons">
             <a href="#">
@@ -64,7 +67,7 @@
     </header>
     <!--  end of header-->
     <!-- services-->
-    <section class="services">
+    <section id="services" class="services">
       <div class="services-center">
         <article class="service">
           <div class="service-icon">
@@ -107,14 +110,44 @@
 
     <!-- end of services-->
     <!--  projects-->
-    <section class="projects">
+    <section id="projects" class="projects">
       <!--  title-->
       <div class="title">
-        <h2>Projects</h2>
+        <h2>Our Work</h2>
+
         <div class="title-underline"></div>
       </div>
       <!--end of  title-->
-      <div class="projects-center">
+      <section id="showcase">
+        <figure class="slide_fade">
+          <img src="img/projects-1.jpeg" />
+          <figcaption class="text">Caption One</figcaption>
+        </figure>
+
+        <figure class="slide_fade">
+          <img src="img/projects-2.jpeg" />
+          <figcaption class="text">Caption Two</figcaption>
+
+          <img src="img/projects-3.jpeg" />
+          <figcaption class="text">Caption Three</figcaption>
+        </figure>
+
+        <figure class="slide_fade">
+          <img src="img/projects-4.jpeg" />
+          <figcaption class="text">Caption Four</figcaption>
+
+          <img src="img/projects-5.jpeg" />
+          <figcaption class="text">Caption Five</figcaption>
+        </figure>
+
+        <figure class="slide_fade">
+          <img src="img/projects-6.jpeg" />
+          <figcaption class="text">Caption Six</figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <!-- <div class="projects-center">
         <article class="project">
           <img src="img/projects-1.jpeg" alt="" />
         </article>
@@ -134,11 +167,11 @@
           <img src="img/projects-6.jpeg" alt="" />
         </article>
       </div>
-    </section>
+    </section> -->
     <!-- end of  projects section-->
 
     <!--about section-->
-    <section class="about">
+    <section id="about" class="about">
       <div class="about-card">
         <h3>about us</h3>
         <i class="fas fa-car"></i>
@@ -157,7 +190,7 @@
     <section class="filler"></section>
     <!-- end of filler section-->
     <!-- contact-->
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="contact-card">
         <form>
           <h3>contact us</h3>
@@ -188,9 +221,8 @@
           <i class="fab fa-pinterest-p"></i>
         </a>
       </div>
-      <p>Copyright@FastAndFaster.All rights reserved</p>
     </footer>
+    <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script scr="script.js"></script>
   </body>
 </html>
