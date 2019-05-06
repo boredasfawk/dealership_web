@@ -19,8 +19,15 @@
   return showSlides;
 })()();
 
-$(document).ready(function() {
-  $(".btn").click(function() {
-    $("nav ul").slideToggle(3000);
+const navUl = document.getElementById("navHide");
+const btn = document.getElementById("btn");
+
+window.onload = () => {
+  btn.addEventListener("click", () => {
+    if (navUl.style.display === "none") {
+      navUl.style.display = "block";
+    } else {
+      navUl.style.display = "none";
+    }
   });
-});
+};

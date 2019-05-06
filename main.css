@@ -36,13 +36,15 @@ nav ul a:hover {
 }
 
 .bar {
+  z-index: 5;
   width: 30px;
   height: 3px;
   margin: 7px;
   background: #ad343e;
 }
 
-.btn {
+#btn {
+  z-index: 1;
   padding: 2px;
   display: inline-block;
   border: 2px solid #ad343e;
@@ -56,8 +58,15 @@ header {
       rgba(255, 255, 255, 0.3)
     ),
     url(img/header-bcg.jpeg) center/cover fixed no-repeat;
+  background-position: center bottom;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 682px) {
+  header {
+    background-position: center;
+  }
 }
 
 nav {
