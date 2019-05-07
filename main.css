@@ -340,7 +340,9 @@ figure.slide_fade > img {
 /*##############filler############*/
 
 .filler {
-  min-height: 60vh;
+  height: 80vh;
+  width: 100vw;
+  min-height: 75vh;
   background: url(img/filler-bcg.jpeg) center/cover fixed no-repeat;
 }
 
@@ -348,7 +350,7 @@ figure.slide_fade > img {
 
 .contact {
   min-height: 80vh;
-  background: url(img/about-bcg.jpeg) center/cover fixed no-repeat;
+  background: url(img/about-bcg.jpeg) center fixed no-repeat;
   /*  3last*/
   display: flex;
   justify-content: center;
