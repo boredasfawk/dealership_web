@@ -244,19 +244,19 @@ figure.slide_fade > img {
   }
 }
 
-#showcase {
+.project {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
   /*  for zoom effect*/
   overflow: hidden;
 }
 
-#showcase img {
+.projects img {
   width: 100%;
   display: block;
   transition: opacity 2s ease, transform 2s ease;
 }
 
-#showcase img:hover {
+.projects img:hover {
   opacity: 0.8;
   transform: scale(1.2);
   cursor: pointer;
