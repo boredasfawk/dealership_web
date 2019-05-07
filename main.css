@@ -350,7 +350,7 @@ figure.slide_fade > img {
 
 .contact {
   min-height: 80vh;
-  background: url(img/about-bcg.jpeg) center fixed no-repeat;
+  background: url(img/about-bcg.jpeg) center/cover fixed no-repeat;
   /*  3last*/
   display: flex;
   justify-content: center;
